@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Fragment 1"
+        android:text="@string/fragment_1"
         android:layout_gravity="center"
         android:gravity="center"/>
 
