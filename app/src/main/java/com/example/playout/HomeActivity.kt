@@ -3,6 +3,8 @@ package com.example.playout
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -35,6 +37,7 @@ class HomeActivity : AppCompatActivity() {
                 }
             }
         }
+
     }
 
     private fun loadFragment(fragment: Fragment) {
@@ -43,4 +46,5 @@ class HomeActivity : AppCompatActivity() {
             fragmentTransaction.commit()
         }
     }
+
 }

@@ -7,6 +7,17 @@
     tools:context=".HomeActivity">
 
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:menu="@menu/toolbar_menu"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+
+    </androidx.appcompat.widget.Toolbar>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
@@ -27,6 +38,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@id/viewDivider"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@id/toolbar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
